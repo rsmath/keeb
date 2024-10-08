@@ -21,10 +21,10 @@
 
             display-name = "Base";
             bindings = <
-&kp LSHFT  &kp Q  &kp W  &kp E      &kp R  &kp T      &kp Y      &kp U  &kp I      &kp O    &kp P     &trans
-&kp TAB    &kp A  &kp S  &kp D      &kp F  &kp G      &kp H      &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp ESC    &kp Z  &kp X  &kp C      &kp V  &kp B      &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RALT
-                         &kp LCTRL  &mo 1  &kp RET    &kp SPACE  &mo 2  &kp BSPC
+&kp ESC    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &trans
+&kp LSHFT  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp TAB    &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RALT
+                         &kp BSPC  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp LCTRL
             >;
         };
 
@@ -37,10 +37,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &kp N1     &kp N2  &kp N3    &kp N0    &kp UP          &trans
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp N4     &kp N5  &kp N6    &kp LEFT  &kp DOWN_ARROW  &kp RIGHT
-&kp TAB     &kp ESC       &trans        &trans        &trans        &trans          &kp N7     &kp N8  &kp N9    &trans    &trans          &trans
-                                        &kp LCTRL     &trans        &kp RET         &kp SPACE  &trans  &kp BSPC
+&kp ESC     &trans        &trans        &trans        &trans        &trans          &kp N1   &kp N2  &kp N3     &kp N0    &kp UP          &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp N4   &kp N5  &kp N6     &kp LEFT  &kp DOWN_ARROW  &kp RIGHT
+&kp LSHFT   &kp TAB       &trans        &trans        &trans        &trans          &kp N7   &kp N8  &kp N9     &trans    &trans          &trans
+                                        &kp BSPC      &trans        &kp SPACE       &kp RET  &trans  &kp LCTRL
             >;
         };
 
@@ -53,9 +53,9 @@
 
             display-name = "Raise";
             bindings = <
-&kp LSHFT  &kp EXCL    &kp AT       &kp HASH   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp AMPS   &kp KP_MULTIPLY  &trans         &kp DEL    &trans  &trans
-&kp TAB    &kp DOLLAR  &kp PERCENT  &kp CARET  &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp MINUS  &kp EQUAL        &kp BACKSLASH  &kp GRAVE  &trans  &trans
-&kp ESC    &kp CAPS    &trans       &trans     &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp UNDER  &kp PLUS         &kp PIPE       &kp TILDE  &trans  &trans
+&kp ESC    &kp EXCL    &kp AT       &kp HASH   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp AMPS   &kp KP_MULTIPLY  &trans         &kp DEL         &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC
+&kp LSHFT  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp MINUS  &kp EQUAL        &kp BACKSLASH  &kp K_MUTE      &kp C_VOLUME_DOWN     &kp C_VOLUME_UP
+&kp TAB    &kp CAPS    &kp GRAVE    &kp TILDE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp UNDER  &kp PLUS         &kp PIPE       &kp C_PREVIOUS  &kp C_PLAY_PAUSE      &kp K_NEXT
                                     &kp LCTRL  &trans                &kp RET                  &kp SPACE  &trans           &kp BSPC
             >;
         };
